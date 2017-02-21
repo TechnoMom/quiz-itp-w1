@@ -1,4 +1,4 @@
-"""Intro to Python - Week 1 - Quiz."""
+r"""Intro to Python - Week 1 - Quiz."""
 
 
 # Question 1
@@ -13,7 +13,7 @@ def question_1():
     d) Collection
     """
     # Return the correct value.
-    pass
+    return 'Boolean'
 
 
 # Question 2
@@ -31,7 +31,7 @@ def question_2():
     e) "hello world"
     """
     # Return the correct value.
-    pass
+    True
 
 
 # Question 3
@@ -46,7 +46,10 @@ def remove_Es(a_string):
     remove_Es('abc')      # 'abc'
     """
     # Write your code here
-    pass
+def remove_Es(string):
+    string.lower(stringlower)
+    for 'e' in stringlower:
+        
 
 
 # Question 4
@@ -63,7 +66,7 @@ def question_4():
     result = a_list[3**2 - 8] + a_list[-1] + a_tuple[2]
     """
     # Return the correct value.
-    pass
+    return 22
 
 
 # Question 5
@@ -94,7 +97,19 @@ def calculate_tax(income):
     calculate_tax(income)  # $210,000 * 0.35 = 73500 = $73,500
     """
     # Write your code here
-    pass
+    if income > 100000:
+        tax = income * .35
+        return tax
+    elif income > 75000 and income <= 100000:
+        tax = income * .30
+        return tax
+    elif income > 50000 and income <= 75000:
+        tax = income * .25
+        return tax
+    elif income <= 50000:
+        tax = income * .15
+        return tax
+        
 
 
 # Question 6
